@@ -107,7 +107,6 @@ button:hover {
   background: #357abd;
 }
 
-/* ===== ギャラリー ===== */
 #gallery {
   display: flex;
   flex-wrap: wrap;
@@ -116,7 +115,13 @@ button:hover {
 
   max-width: 970px;
   width: 100%;
-  margin: 0 auto; /* 中央寄せ */
+  margin: 0;  
+}
+
+#gallery img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
 }
 
 /* 画像サイズ */
