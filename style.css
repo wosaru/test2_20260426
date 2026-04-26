@@ -113,19 +113,16 @@ button:hover {
   flex-wrap: wrap;
   gap: 10px;
   align-items: flex-start;
+
+  max-width: 970px;
+  width: 100%;
+  margin: 0;
 }
 
-/* オリジナルサイズ表示 */
 #gallery img {
-  width: auto;
+  width: 100%;
   height: auto;
-  max-width: none;
-  max-height: none;
-
-  border-radius: 8px;
-  background: white;
-  padding: 4px;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+  max-width: 100%;
 }
 
 /* ===== PC ===== */
@@ -165,4 +162,3 @@ button:hover {
   border-radius: 10px;
   text-align: left;
 }
-
